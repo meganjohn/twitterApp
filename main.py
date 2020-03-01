@@ -4,7 +4,13 @@ def ask_for_input() -> str:
     pass
 
 def is_valid_input(user_input: str) -> bool:
-    return True
+    is_valid = True
+    if user_input == "":
+        is_valid = False
+    split_input = user_input.split(" ")
+    if len(split_input) > 1:
+        is_valid = False
+    return is_valid
 
 def get_tweets(hashtag: str) -> list:
     pass
