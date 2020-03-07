@@ -12,8 +12,7 @@ def is_valid_input(user_input: str) -> bool:
         is_valid = False
     return is_valid
 
-def get_tweets(hashtag: str) -> list:
-    pass
+
 
 def pick_tweets(all_tweets: list, number: int) -> list:
     pass
